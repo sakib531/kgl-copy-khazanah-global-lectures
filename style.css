@@ -1,0 +1,15 @@
+/* #F2F2F2 */
+
+.header {
+    width: 100%;
+    height: 100px;
+}
+
+.header-background {
+    background: #F2F2F2;
+}
+
+.header-text {
+    font-size: 25px;
+    font-weight: 500;
+}
