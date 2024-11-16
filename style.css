@@ -10,6 +10,49 @@
 }
 
 .header-text {
-    font-size: 25px;
-    font-weight: 500;
+    font-size: 20px;
+}
+
+.img-size{
+    width: 188px;
+    height: 76px;
+}
+
+.active{
+    color: #638C1C !important;
+}
+
+.section-two-background {
+    background: #8E8973;
+}
+
+.dr-jane-img{
+    width: 500px;
+    height: 435;
+}
+
+.button-style{
+    background: #8E8973;
+    border: 3px solid white;
+}
+
+.bottom-border{
+    border-bottom: 2px solid #BFBFBF;
+}
+
+.text-person{
+    font-size: 30px;
+}
+
+.full-background{
+    background: #F2F2F2;
+}
+
+.section-three-button{
+    background: #7B7B7B;
+}
+
+.footer-body{
+    background-image: url('images/bg-dark-desktop.jpg');
+    height: 440px;
 }
