@@ -56,3 +56,18 @@
     background-image: url('images/bg-dark-desktop.jpg');
     height: 440px;
 }
+
+.card-hover:hover p {
+    color: #638C1C;
+    transition: 0.5s;
+}
+
+.card-text-size{
+    height: 150px;
+    display: flex;
+}
+
+.card-text-position h1 {
+    display: flex;
+    align-items: flex-end;
+}
