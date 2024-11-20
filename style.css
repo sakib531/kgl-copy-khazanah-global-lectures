@@ -57,17 +57,48 @@
     height: 440px;
 }
 
-.card-hover:hover p {
+.card-hover:hover h5 {
     color: #638C1C;
     transition: 0.5s;
 }
 
 .card-text-size{
-    height: 150px;
+    height: 200px;
     display: flex;
 }
 
-.card-text-position h1 {
-    display: flex;
-    align-items: flex-end;
+.card-text-position p {
+    bottom: 0;
 }
+
+@media (max-width: 575px) {
+    .text-centre-phone{
+        text-align: center;
+    }
+    .billboard-body {
+        text-align:center;
+        background: white;
+    }
+    .billboard-body h5 {
+        color: black!important;
+    }
+    .billboard-body p {
+        color: black!important;
+    }
+    .billboard-body button {
+        color: black!important;
+        background: white;
+        border: 2px solid black;
+    }
+    .text-fourteen-px {
+        font-size: 14px;
+    }
+    .text-twenty-seven-px-h{
+        font-size: 27px;
+    }
+
+    .text-twenty-px{
+        font-size: 20px;
+    }
+}
+
